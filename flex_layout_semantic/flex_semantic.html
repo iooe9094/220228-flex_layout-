@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/220228(flex_layout)/flex_layout_semantic/commons.css">
+    <link rel="stylesheet" href="/220228(flex_layout)/flex_layout_semantic/header.css">
+    <link rel="stylesheet" href="/220228(flex_layout)/flex_layout_semantic/navigation.css">
+    <link rel="stylesheet" href="/220228(flex_layout)/flex_layout_semantic/section.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <!-- 머리말 레이아웃 -->
+        <header id="main-header">
+            <h1> 환영합니다 </h1>
+        </header>
+        
+        <!-- 메뉴 레이아웃 -->
+        <nav id="main-nav">
+
+            <!-- 메뉴 공간 (좌측)-->
+            <div class="pull-left">
+                <ul class="outer-menu"> <!-- ul>li*3 하면 리스트 3개 생성됨 (축약어 기능) / table태그에서 tr>td*3도 가능 -->
+                    <li><a href="#"> 메뉴1</a></li>  
+                    <li><a href="#"> 메뉴2</a></li>  
+                    <li><a href="#"> 메뉴3</a></li>  
+                </ul>
+            </div>
+
+            <!-- 검색엔진 공간 (우측) -->
+            <div class="pull-right"> <!-- div.search-bar 하면 클래스 이름 바로 생성됨 -->
+                <div class="search-bar">
+                    <input type="text" class="input-search">
+                    <input type="submit" class="input-search-submit" value="검색">
+                </div>
+            </div>
+        </nav>
+
+    <div class="content">
+    <!-- 본문 단원 -->
+        <section id="main-section">
+            <!-- 첫번 째 기사 -->
+            <article>
+                <!-- 기사 제목 -->
+                <div class="article-header">
+                    <p>본문1</p>
+                </div>
+                <!-- 기사 본문 -->
+                <div class="article-body">
+                    <p>본문내용1</p>
+                    <table>
+                        <tr>
+                            <td>No</td>
+                            <td>제목</td>
+                            <td>내용</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>제목-1</td>
+                            <td>내용-2</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <!-- 두번 째 기사 -->
+            <article>
+                <!-- 기사 제목 -->
+                <div class="article-header">
+                    <p>본문2</p>
+                </div>
+                <!-- 기사 본문 -->
+                <div class="article-body">
+                    <p>본문내용2</p>
+                </div>
+            </article>
+        </section>
+        
+        <!-- 오른쪽 위치하는 소메뉴 -->
+        <aside id="main-aside">
+            <div class="aside-list">
+                <div class="aside-list-item">
+                    <ul>
+                        <li>네이버</li>
+                        <li>구글</li>
+                    </ul>
+                </div>
+                <div class="aside-list-item">
+                    <ul>
+                        <li>유튜브</li>
+                        <li>인스타그램</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+        <!-- 꼬리말 -->
+        <footer id="main-footer">
+            <a href="#">Create by Team-Hexagon, Ha BoSeok</a>
+        </footer>
+    </div>
+</body>
+</html>

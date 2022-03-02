@@ -1,0 +1,45 @@
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+#main-nav {
+    height: 30px; /* 높이를 주면 다른 영역이 침범 못함 */
+    /* background-color: aqua; */
+}
+
+.menu-title {
+    float: left;
+    font-size: medium;
+}
+
+.menu-title > a:hover {
+    background-color: black;
+    color: white;
+    padding: 0px 30px;
+}
+
+.menu-title > a {
+    padding: 0px 30px;
+}
+
+.search-bar {
+    /* background-color: lightcoral; */
+    width: 300px;
+}
+
+.input-search {
+    float: left;
+    height: 15px;
+    width: 120px;
+    margin-right: 3px;
+}
+
+.input-search-submit {
+    float: left;
+    height: 20px;
+    font-size: 15px;
+}

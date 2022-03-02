@@ -1,0 +1,39 @@
+/* 부모에 항상 flex가 걸려야 함 */
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: cornflowerblue; */
+}
+
+#main-aside {
+    margin-left: auto;
+    width: 250px;
+    margin-top: 10px;
+    /* background-color: crimson; */
+}
+
+#main-section {
+    /* background-color: darkgoldenrod; */
+    width: 640px;
+    margin: 5px 20px;
+}
+
+.aside-list-item {
+    margin: 5px 10px;
+    /* background-color: darkolivegreen; */
+}
+
+.article-header {
+    font-size: 20px;
+}
+
+.article-body {
+    font-size: 15px;
+    margin: 5px 15px;
+}
+
+#main-footer {
+    font-size: 13px;
+    margin: 20px;
+}

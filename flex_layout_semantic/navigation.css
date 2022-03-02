@@ -1,0 +1,46 @@
+#main-nav {
+    display: flex; /* 부모에 flex 걸어야 자식요소가 움직임 */
+    justify-content: flex-start; /* 왼쪽부터 차례대로 정리하는 것 */
+    /* background-color: aqua; */
+}
+
+.pull-right {
+    margin-left: auto;
+}
+
+.outer-menu {
+    display: flex; /* 메뉴1, 메뉴2, 메뉴3을 가로로 놔두기 위해 부모에 flex 걸었음 */
+    /* background-color:wheat; */
+    width: 630px;
+    font-size: 15px;
+}
+
+.outer-menu a:hover { /* 태그에 마우스 올리면 색깔 변경하는 것 */
+    background-color: white;
+    color: black;
+    padding: 0px 50px;
+}
+
+.outer-menu a { /* 태그에 마우스 올리면 색깔 변경하는 것 */
+    padding: 0px 50px;
+}
+
+.search-bar {
+    width: 260px;
+    height: 25px;
+    padding: 0px 20px;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+}
+
+.input-search {
+    width: 100px;
+    height: 15px;
+}
+
+.input-search-submit {
+    margin: 0px 5px;
+    height: 20px;
+    font-size: 13px;
+}
